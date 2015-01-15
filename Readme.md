@@ -1,3 +1,7 @@
-## Yo, I'm a Readme
+Simple application using Backbone
 
-You should probably update me so people looking at your code have an idea what it is being used for :)
+Libraries and Frameworks used: jQuery, underscore, Backbone,
+
+Parse as a backend
+
+Author: Wendy N 
