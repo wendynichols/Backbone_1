@@ -10,8 +10,7 @@
       firstName: '',
       lastName: '',
       phone: '',
-      city: '',
-      state: ''
+      email: ''
     },
 
     initialize: function() {

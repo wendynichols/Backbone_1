@@ -23,19 +23,12 @@
         firstName: $('#contact_firstName').val(),
         lastName: $('#contact_lastName').val(),
         phone: $('#contact_phone').val(),
-        city: $('#contact_city').val(),
-        state: $('#contact_state').val(),
+        email: $('#contact_email').val()
       });
 
       App.contacts.add(per).save();
 
     }
 
-
-
-
-
   });
-
-
 }());

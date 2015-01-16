@@ -34,8 +34,7 @@
         firstName: $('#update_firstName').val(),
         lastName: $('#update_lastName').val(),
         phone: $('#update_phone').val(),
-        city: $('#update_city').val(),
-        state: $('#update_state').val(),
+        email: $('#update_email').val()
       });
 
 
