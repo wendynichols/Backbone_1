@@ -13,7 +13,7 @@
     },
 
     render: function(){
-      this.$el.html($('#addTemp').html());
+      this.$el.html($('#addContact').html());
     },
 
     addContact: function (e) {

@@ -11,7 +11,7 @@
       'click li' : 'gotoEdit'
     },
 
-    template: _.template($('#listTemp').html()),
+    template: _.template($('#allContacts').html()),
 
 
 

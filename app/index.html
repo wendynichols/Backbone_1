@@ -32,8 +32,15 @@
       <div id="contactList"></div>
     </div>
 
+    <script type="text/template" id="allContacts">
+      <li class="contactList" id="<%= _id %>">
+        <div class="name"><%= firstName %> <%= lastName %></div>
+        <div class="phone"><p>Phone: <%= phone %></p></div>
+        <div class="email"><p>Email: <%= email %></p></div>
+      </li>
+    </script>
 
-    <script type="text/template" id="addTemp">
+    <script type="text/template" id="addContact">
       <form id="addContact">
         <input type="text" id="contact_firstName" placeholder="First Name" />
         <input type="text" id="contact_lastName" placeholder="Last Name" />
@@ -43,18 +50,8 @@
       </form>
     </script>
 
-    <script type="text/template" id="listTemp">
-      <li class="contactList" id="<%= _id %>">
 
-        <div class="name"><%= firstName %> <%= lastName %></div>
-        <div class="phone"><p>Phone: <%= phone %></p></div>
-        <div class="email"><p>Email: <%= email %></p></div>
-
-      </li>
-    </script>
-
-
-    <script type="text/template" id="singleTemp">
+    <script type="text/template" id="updateContact">
       <li class="info" id="<%= _id %>">
         <form id="updateContact">
           <div class="card-header">

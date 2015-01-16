@@ -10,7 +10,7 @@
       'click #delete' : 'deleteContact'
     },
 
-    template: _.template($('#singleTemp').html()),
+    template: _.template($('#updateContact').html()),
 
     initialize: function (options) {
       this.options = options;
