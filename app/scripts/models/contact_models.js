@@ -15,7 +15,7 @@
     },
 
     initialize: function() {
-      var c = this.get('title');
+      var c = this.get('firstName');
       console.log(c + " has been added");
 
     }
